@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  builder:
+    build: .
+    volumes:
+      - ./:/app/
+    user: "1000:1000"
